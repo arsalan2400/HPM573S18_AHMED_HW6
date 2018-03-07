@@ -124,5 +124,5 @@ print("Interpretation for LP: The 95% CI of the loss prob means that 95% of the 
 print("But this rule would ideally be better seen over a very very large # of repeated trials and you only did it 10x. This makes the value of interpretation limited; first of all, it's more likely to see a loss given the small # of rounds. Second, CI's will be large.")
 print("\n")
 print("Now let's try with PI's")
-print("The next expected value projection will 95% likely fall within the 95% PI range of ...", these_rounds.get_expectedvaluePI(alpha))
-print("The next loss prob projection will 95% likely fall within the 95% PI range of...", these_rounds.get_expectedlossPI(alpha))
+print("The prediction interval tells you about the distribution of values, not the uncertainty in determining the population mean. The next expected value projection will 95% likely fall within the 95% PI range of ...", these_rounds.get_expectedvaluePI(alpha))
+print("The prediction interval tells you about the distribution of values, not the uncertainty in determining the population mean. The next loss prob projection will 95% likely fall within the 95% PI range of...", these_rounds.get_expectedlossPI(alpha))
