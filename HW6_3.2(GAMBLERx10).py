@@ -107,8 +107,8 @@ class theserounds:
 ####New Stuff for HW6#####
 alpha = 0.05
 numberofrounds = 10
-these_rounds = theserounds(numberofrounds)  # Create rounds
-these_rounds.playagame()  # Play rounds
+these_rounds = theserounds(numberofrounds) 
+these_rounds.playagame() 
 
 print("The expected value mean in USD$ is...", these_rounds.get_avg_expected())
 print("95% CI range of the expected value in USD$ is...", these_rounds.get_expectedvalueCI(alpha))
