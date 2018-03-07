@@ -118,7 +118,7 @@ print("\n")
 print("Example from Spyder: EV = -24.2533333333, 95% CI of EV: [-25.798758204609559, -22.707908462057109]. "
       "\n"
       "LP = 0.6004, 95% CI of LP = [0.59256055951572839, 0.6082394404842717]")
-print("Interpretation for EV: The 95% CI of the expected value means that 95% of the CI's will encompass the true mean (about -24)- though we're not entirely sure what that is")
-print("hopefully within the 1000 times you repeated the experiment, but this rule would ideally be better seen over a very very large # of repeated trials.")
-print("Interpretation for LP: The 95% CI of the loss prob means that 95% of the CI's will encompass the true mean (about 0.6)- though we're not entirely sure what that is")
-print("hopefully within the 1000 times you repeated the experiment, but this rule would ideally be better seen over a very very large # of repeated trials.")
+print("Interpretation for EV: The 95% CI of the expected value means that 95% of the CI's will encompass the quote-unquote true mean (about -24)- though we're not entirely sure what that is!")
+print("We ran the toss 1000 times, which tightened up the CI and brought EV closer to the true mean, but this rule would ideally be better seen over a very very large # of repeated trials.")
+print("Interpretation for LP: The 95% CI of the loss prob means that 95% of the CI's will encompass the quote-unquote true mean (about 0.6)- though we're not entirely sure what that is!")
+print("We ran the toss 1000 times, which tightened up the CI and brought LP closer to the true prob, but this rule would ideally be better seen over a very very large # of repeated trials.")
