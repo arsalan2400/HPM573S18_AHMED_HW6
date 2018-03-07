@@ -115,6 +115,6 @@ print("Example from Spyder for Casino dude: EV = -22.2, 95% CI of EV: [-28.10538
       "\n"
       "LP = 0.608, 95% CI of LP = [0.57768994957140107, 0.6383100504285989]")
 print("Interpretation for EV: The 95% CI of the expected value means that 95% of the CI's will encompass the true mean (about -22)- though we're not entirely sure what that is!")
-print("43,000 is a large # and this rule would ideally be better if seen over a very very large # of repeated trials. Even so, a large # gives us a tighter CI and an EV closer to the true mea, which improves the predictive value of this model.")
+print("43,000 is a large # and this rule would ideally be better if seen over a very very large # of repeated trials. Even so, a large # gives us a tighter CI and an EV closer to the true mean, which improves the predictive value of this model.")
 print("Interpretation for LP: The 95% CI of the loss prob means that 95% of the CI's will encompass the true mean (about 0.60)- though we're not entirely sure what that is!")
-print("43,000 is a large # and this rule would ideally be better if seen over a very very large # of repeated trials. Even so, a large # gives us a tighter CI and an EV closer to the true mea, which improves the predictive value of this model.")
+print("43,000 is a large # and this rule would ideally be better if seen over a very very large # of repeated trials. Even so, a large # gives us a tighter CI and an EV closer to the true mean, which improves the predictive value of this model.")
