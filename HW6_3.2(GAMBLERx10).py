@@ -119,7 +119,7 @@ print("Example from Spyder for Gambler dude: EV = -40, 95% CI of EV: [-102.63629
       "\n"
       "LP = 0.8, 95% CI of LP = [0.49837904496786783, 1.1016209550321323]")
 print("Interpretation for EV: The 95% CI of the expected value means that 95% of the CI's will encompass the true mean (about -40)- though we're not entirely sure what that is!")
-print("But this rule would ideally be better seen over a very very large # of repeated trials and you only did it 10x. This makes the value of interpretation limited; first of all, EV is based off a small # of rounds, can't be sure if it's best reflecting true mean. Second, larger CI, not much confidence.")
+print("But this rule would ideally be better seen over a very very large # of repeated trials and you only did it 10x. This makes the value of interpretation limited; first of all, EV is based off a small # of rounds, can't be sure if it's best reflecting true mean. It'll jump around a lot. Second, larger CI, not much confidence.")
 print("Interpretation for LP: The 95% CI of the loss prob means that 95% of the CI's will encompass the true mean (about 0.60)- though we're not entirely sure what that is")
 print("But this rule would ideally be better seen over a very very large # of repeated trials and you only did it 10x. This makes the value of interpretation limited; first of all, it's more likely to see a loss given the small # of rounds. Second, CI's will be large.")
 print("\n")
